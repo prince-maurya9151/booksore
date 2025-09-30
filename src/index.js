@@ -9,7 +9,7 @@ import SignupPage from './landingPage/signout/SignupPage';
 import FeaturePage from './landingPage/features/FeaturePage';
 
 import RentBookPage from './landingPage/features/RentBookPage';
-import Navebar from './landingPage/Navbar';
+// import Navebar from './landingPage/Navbar';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
