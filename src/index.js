@@ -18,6 +18,7 @@ root.render(
     <BrowserRouter>
     {/* <Navebar/> */}
     <Routes>
+      <Route path="/" element={<HomePage />} />
         <Route path="/home" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/signup" element={<SignupPage />} />
@@ -25,11 +26,7 @@ root.render(
       <Route path="/rent" element={<RentBookPage />} />
     </Routes>
     </BrowserRouter>
-   /* <HomePage/>
-   <AboutPage/>
-   <SignupPage/>
-   <FeaturePage/>
-   <RentBookPage/> */
+  
   
 );
 
