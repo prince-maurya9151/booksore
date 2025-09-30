@@ -1,0 +1,57 @@
+ .buybooks-section {
+  background-color: #f8f9fa;
+}
+
+.buybooks-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.book-card {
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+.book-img {
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.book-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.book-author {
+  font-size: 0.95rem;
+  color: #777;
+  margin: 5px 0;
+}
+
+.book-price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.buy-btn {
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buy-btn:hover {
+  background-color: #0056b3;
+}
